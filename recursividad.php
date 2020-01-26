@@ -1,5 +1,6 @@
 <?php
 if (isset($_POST['enviar'])){
+	//Mi funcion para calcular factorial
 	function factorial($number){
 	if ($number==0){
 		return 1;
